@@ -1,6 +1,12 @@
 "use client";
 
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Error",
+  description: "Error detected while browsing the Application.",
+};
 
 export default function GlobalError() {
   return (
